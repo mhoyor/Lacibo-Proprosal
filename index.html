@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>LaCibo Restaurant</title>
+    <link rel="icon" type="image/jpg" sizes="16×16" href="./Lacibo.JPG" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  </head>
+  <body>
+    <!-- page loader start-->
+    <div class="loader-container">
+      <img src="./images/loader.gif" alt="" />
+    </div>
+
+    <!-- page loader ends-->
+
+    <!--- header start-->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="logo">
+            <a href="#"><img src="./images/Lacibo logo.png" alt="logo" /></a>
+          </div>
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <ul>
+              <li>
+                <img src="./images/dark theme icon/sun.png" id="icon" />
+              </li>
+              <li class="nav-item"><a href="#home">home</a></li>
+              <li class="nav-item"><a href="#about">about</a></li>
+              <li class="nav-item"><a href="#services">services</a></li>
+              <li class="nav-item"><a href="#our-menu">our menu</a></li>
+              <li class="nav-item"><a href="#dining">experience</a></li>
+
+              <li class="nav-item"><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--HEADER END-->
+
+    <!-- home section start-->
+    <section class="home-section" id="home">
+      <div class="home-bg"></div>
+      <div class="container">
+        <div class="row min-vh-100 align-items-center">
+          <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+            <h1>LaCibo Restaurant</h1>
+            <p>
+              Welcome to Lacibo,<br />
+              Experience affordable dining with exquisite ambience to match.
+              Discover us today and dine with us.
+            </p>
+            <p>
+              With LaCibo you've got your taste buds a wonderful treat.
+              <br /><span class="typing"></span>
+              We've got you covered.
+            </p>
+            <a href="#our-menu" class="btn btn-default">our menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end-->
+
+    <!--about section start-->
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="our story" data-aos="fade-up">about us</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-text" data-aos="fade-right">
+            <h3>Welcome to LaCibo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              corrupti omnis doloribus, est cumque nam debitis harum saepe
+              molestias aliquid mollitia? Mollitia explicabo magnam omnis,
+              deleniti, amet est pariatur dolore voluptates excepturi debitis
+              fugiat similique odit aliquam aliquid, incidunt impedit!
+            </p>
+            <a href="#our-menu" class="btn btn-default">check our menu</a>
+          </div>
+          <div class="about-img" data-aos="fade-left">
+            <div class="img-box">
+              <img src="./images/photogrid/IMG-8303.JPG" alt="laCibo logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About section ends-->
+
+    <!-- Services section-->
+    <section class="offer-section sec-padding" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="services">we offer</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="offer-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./images/offers/lacibo delivery.jpg" alt="offer item" />
+            <div class="offer-item-info">
+              <h3>Doorstep Delivery</h3>
+              <p>Order from anywhere in Lagos</p>
+            </div>
+          </div>
+          <div class="offer-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./images/offers/Lacibo karaoke.jpg" alt="offer item" />
+            <div class="offer-item-info">
+              <h3>karaoke</h3>
+              <p>Come sing along to your favorite song</p>
+            </div>
+          </div>
+          <div class="offer-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./images/offers/private events.jpg" alt="offer item" />
+            <div class="offer-item-info">
+              <h3>Reservations</h3>
+              <p>You can reserve us, for your private events</p>
+            </div>
+          </div>
+          <div class="offer-item" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./images/offers/Lacibo karaoke.jpg" alt="offer item" />
+            <div class="offer-item-info">
+              <h3>Hello there</h3>
+              <p>Something comes here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section ends-->
+
+    <!-- menu section starts-->
+    <section class="menu-section sec-padding" id="our-menu">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="Popular menu" data-aos="fade-up">Our Menu</h2>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="menu-tabs">
+            <button
+              type="button"
+              class="menu-tab-item active"
+              data-target="#breakfast"
+            >
+              breakfast
+            </button>
+            <button type="button" class="menu-tab-item" data-target="#lunch">
+              lunch
+            </button>
+            <button type="button" class="menu-tab-item" data-target="#Main">
+              Main
+            </button>
+            <button type="button" class="menu-tab-item" data-target="#drinks">
+              drinks
+            </button>
+            <button type="button" class="menu-tab-item" data-target="#desserts">
+              desserts
+            </button>
+          </div>
+        </div>
+        <div class="row menu-tab-content active" id="breakfast">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/Buttermilk pancakes.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>
+                Butter Milk Pancakes (pan-cakes, sausage, Eggs and tomatoes)
+              </h3>
+            </div>
+            <div class="menu-item-price">₦3500</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/English breakfast.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>
+                Full English Breakfast (toast, sunny side up, Baker beans,
+                Grilled Tomatoes, Bacon and sausage, Mushrooms)
+              </h3>
+            </div>
+            <div class="menu-item-price">₦4000</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-title" data-aos="fade-up-right">
+              <img src="./images/Menu/IMG-8421.JPG" alt="menu item thumbnail" />
+              <h3>Waffles And Crispy Chicken</h3>
+            </div>
+            <div class="menu-item-price">₦3500</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-title" data-aos="fade-up-right">
+              <img
+                src="./images/Menu/club sandwich.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Club Sandwich with Fries</h3>
+            </div>
+            <div class="menu-item-price">₦4500</div>
+          </div>
+        </div>
+        <div class="row menu-tab-content" id="lunch">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/lacibo spaghetti.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Spaghetti Bolognese</h3>
+            </div>
+            <div class="menu-item-price">₦4000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/Waffles burger.JPG"
+                alt="menu item thumbnail"
+              />
+              <h3>Waffles Burger</h3>
+            </div>
+            <div class="menu-item-price">₦3800</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-title" data-aos="fade-up-right">
+              <img src="./img/menu/2.jpg" alt="menu item thumbnail" />
+              <h3>Shredded Chicken Pasta</h3>
+            </div>
+            <div class="menu-item-price">₦4000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="./img/menu/2.jpg" alt="menu item thumbnail" />
+              <h3>Lacibo Special Prawn Pasta</h3>
+            </div>
+            <div class="menu-item-price">₦5500</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-title" data-aos="fade-up-right">
+              <img
+                src="./images/Menu/burger with fries.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Chicken Burger With Fries</h3>
+            </div>
+            <div class="menu-item-price">₦3000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/burger with fries.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Beef Burger with Fries</h3>
+            </div>
+            <div class="menu-item-price">₦3000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/double burger.JPG"
+                alt="menu item thumbnail"
+              />
+              <h3>Double Chicken with Beef Burger</h3>
+            </div>
+            <div class="menu-item-price">₦3800</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/Wrap-Beef.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Beef wrap</h3>
+            </div>
+            <div class="menu-item-price">₦2500</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/Wrap-Beef.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Chicken wrap</h3>
+            </div>
+            <div class="menu-item-price">₦2000</div>
+          </div>
+        </div>
+        <div class="row menu-tab-content" id="Main">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/Jollof on the jet.JPG"
+                alt="menu item thumbnail"
+              />
+              <h3>Jollof on Jet (Jollof Rice, Plantain, Coleslaw, Chicken)</h3>
+            </div>
+            <div class="menu-item-price">₦4000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="./img/menu/3.jpg" alt="menu item thumbnail" />
+              <h3>Special Friedrice with Chicken Wings</h3>
+            </div>
+            <div class="menu-item-price">₦4000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="./images/Menu/jollof.JPG" alt="menu item thumbnail" />
+              <h3>Seafood Rice</h3>
+            </div>
+            <div class="menu-item-price">₦4500</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="./img/menu/3.jpg" alt="menu item thumbnail" />
+              <h3>Chicken in curry Sauce served in Steamed Rice</h3>
+            </div>
+            <div class="menu-item-price">₦4000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="./images/Menu/jollof.JPG" alt="menu item thumbnail" />
+              <h3>Native rice in Chicken</h3>
+            </div>
+            <div class="menu-item-price">₦3500</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="./img/menu/3.jpg" alt="menu item thumbnail" />
+              <h3>Seafood Okra with swallow of choice</h3>
+            </div>
+            <div class="menu-item-price">₦5000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="./img/menu/3.jpg" alt="menu item thumbnail" />
+              <h3>Egusi/Vegetable with swallow of choice</h3>
+            </div>
+            <div class="menu-item-price">₦4000</div>
+          </div>
+        </div>
+        <div class="row menu-tab-content" id="drinks">
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="./images/Menu/din.JPG" alt="menu item thumbnail" />
+              <h3>
+                Milkshakes (Strawberry, Vanilla, Chocolate, Oreo, Birthday Cake,
+                Ninja turtle)
+              </h3>
+            </div>
+            <div class="menu-item-price">₦3000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="./images/Menu/Smoothie.JPG" alt="menu item thumbnail" />
+              <h3>Smoothies (Mango, Pina Colada, Strawberry Banana, Banana)</h3>
+            </div>
+            <div class="menu-item-price">₦2500</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="./images/Menu/Mocktail.JPG" alt="menu item thumbnail" />
+              <h3>Any Signature Cocktail of choice</h3>
+            </div>
+            <div class="menu-item-price">₦3800</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img src="./images/Menu/Mocktail.JPG" alt="menu item thumbnail" />
+              <h3>Any Mocktail of choice</h3>
+            </div>
+            <div class="menu-item-price">₦3000</div>
+          </div>
+        </div>
+        <div class="row menu-tab-content" id="desserts">
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/Apple crumble.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Apple Crumble & Custard</h3>
+            </div>
+            <div class="menu-item-price">₦3000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="./img/menu/3.jpg" alt="menu item thumbnail" />
+              <h3>Lacibo Bubble Waffles</h3>
+            </div>
+            <div class="menu-item-price">₦3000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-left">
+            <div class="menu-item-title">
+              <img
+                src="./images/Menu/Ice cream cake.jpg"
+                alt="menu item thumbnail"
+              />
+              <h3>Chocolate cake with Ice-cream</h3>
+            </div>
+            <div class="menu-item-price">₦3000</div>
+          </div>
+          <div class="menu-item" data-aos="fade-up-right">
+            <div class="menu-item-title">
+              <img src="./img/menu/3.jpg"menu item thumbnail" />
+              <h3>Waffle Lollipop</h3>
+            </div>
+            <div class="menu-item-price">₦2500</div>
+          </div>
+        </div>
+        <div class="row">
+          <a
+            href="https://qr.scanfor.menu/menu-images/11v03efmviaeu0ifcyc_kspwx32y_a84UVTwifUHzVDrz.pdf"
+            target="_blank"
+            class="btn btn-default"
+            >View Full Menu</a
+          >
+          <a href="https://whatsapp.com" class="btn btn-default">Order Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- menu section ends-->
+
+    <!-- dining experience -->
+    <section class="dining-section sec-padding" id="dining">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="Experience" data-aos="fade-up">Dining Lounge</h2>
+          </div>
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/lacibo pam.jpg" alt="" />
+        </div>
+        <div class="image" data-aos="fade-right">
+          <img src="./images/photogrid/lacibo image.jpg" alt="" />
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/IMG-8410.JPG" alt="" />
+        </div>
+        <div class="image" data-aos="fade-right">
+          <img src="./images/photogrid/IMG-8295.JPG" alt="" />
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/IMG-8413.JPG" alt="" />
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/lacibo seyi.jpg" alt="" />
+        </div>
+        <div class="image" data-aos="fade-right">
+          <img src="./images/photogrid/lacibo header.jpg" alt="" />
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/IMG-8303.JPG" alt="" />
+        </div>
+        <div class="image" data-aos="fade-right">
+          <img src="./images/photogrid/IMG-8414.JPG" alt="" />
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/IMG-8409.JPG" alt="" />
+        </div>
+
+        <div class="image" data-aos="fade-right">
+          <img src="./images/photogrid/IMG-8411.jpg " alt="" />
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/IMG-8420.jpg " alt="" />
+        </div>
+        <div class="image" data-aos="fade-right">
+          <img src="./images/photogrid/IMG-8412.jpg " alt="" />
+        </div>
+        <div class="image" data-aos="fade-left">
+          <img src="./images/photogrid/IMG-8303.JPG " alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- dining experience ends -->
+
+    <!-- footer section starts-->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="footer-item" data-aos="fade-up">
+            <h2>Our location</h2>
+            <p>No 59, Ogunlana Drive, Surulere<br />Lagos, Nigeria</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1072642726062!2d3.350734314449505!3d6.508104625148439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dc6c9cbbbf9%3A0x55f7dbcce315141!2sLacibo%20Restaurant%20and%20Lounge!5e0!3m2!1sen!2sng!4v1634860374598!5m2!1sen!2sng"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="footer-item" data-aos="fade-up">
+            <h2>opening hours</h2>
+            <p>Monday - Saturday<br /><span>12:00 PM - 10:00PM</span></p>
+            <p>Sunday<br /><span>1:00 PM - 10:00PM</span></p>
+          </div>
+          <div class="footer-item" data-aos="fade-up">
+            <h2>contact us</h2>
+            <p>091211024698</p>
+            <p>lacibo@hotmail.com</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/lacibo_ng" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/laCibo_ng" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            &copy; 2021 Designed by
+            <a href="https://twitter.com/movaciy" target="_blank">Victor</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends-->
+  </body>
+  <script src="./js/script.js"></script>
+  <script src="./js/aos.js"></script>
+</html>
